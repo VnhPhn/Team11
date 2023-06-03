@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="short icon" href="image/short_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+
+    <!--Navigation Bar-->
+
+    <nav>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="image/logo.png">
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="index.html" class="action">Trang Chủ</a></li>
+            <li><a href="about.html">Giới Thiệu</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Thư Viện Ảnh</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><div class="cart-icon">
+                <button id="cart-button">🛒</button>
+            <span id="cart-count">0</span>
+        </div>
+        </ul>    
+        <div class="login">
+            <a href="login.html">Đăng nhập</a>
+        </div>
+
+    </nav>
+
+
+
+
+
+    <!--Banner-->
+
+    <div class="banner_bg">
+        <h1><span>Menu</span></h1>
+    </div>
+
+    
+  
+
+    <!--Menu-->
+
+    <div class="menu">
+
+        <div class="product-list anim">
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu_1.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Buger</h2>
+                    <p>
+                        Burger bò tắm phô mai ( Bánh vừa )
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">100.000đ
+                        <sub><del>120.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-2.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Sinh Tố</h2>
+                    <p>
+                        Hoa quả tươi sạch an toàn thực phẩm
+
+
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">50.000đ
+                        <sub><del>70.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-3.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Cơm Tấm</h2>
+                    <p>
+                        Sườn + Trứng ốp + Rau + Thịt
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">40.000đ
+                        <sub><del>60.000đ</del></sub></p>
+
+                        <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-4.webp">
+                </div>
+
+                <div class="product">
+
+                    <h2>Ngô Chiên</h2>
+                    <p>
+                        Một đĩa ngô thơm ngon có giá chỉ 30.000đ/1 đĩa 
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">30.000đ
+                        <sub><del>40.000đ</del></sub></p>
+
+                        <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-5.webp">
+                </div>
+
+                <div class="product">
+
+                    <h2>Khoai Chiên</h2>
+                    <p>
+                        Khoai tây chiên bột thơm ngon
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">35.000đ
+                        <sub><del>40.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-6.webp">
+                </div>
+
+                <div class="product">
+
+                    <h2>súp lươn</h2>
+                    <p>
+                        Súp lươn Nghệ An thơm ngon chuẩn vị
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">35.000đ
+                        <sub><del>50.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-7.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Rau muống xào tỏi</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">70.000đ
+                        <sub><del>95.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-8.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2> Nộm hoa chuối</h2>
+                   
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">70.000đ
+                        <sub><del>100.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-9.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Gà rang muối</h2>
+
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">220.000đ
+                        <sub><del>270.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-10.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Tôm hùm nướng phô mai</h2>
+                    <p>
+                        Thịt tôm thơm ngọt tự nhiên
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">645.000đ
+                        <sub><del>1.000.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-11.png">
+                </div>
+
+                <div class="product">
+
+                    <h2>Coca</h2>
+                    <p>
+                        Coca cola vị truyền thống
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">20.000đ
+                        <sub><del>50.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+            
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-12.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Cua rang me</h2>
+                    <p>
+                        Thử một lần là muốn thử lần 2
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">220.000đ
+                        <sub><del>250.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-13.webp">
+                </div>
+
+                <div class="product">
+
+                    <h2>Mực hấp bia</h2>
+                    <p>
+                        Mực dai giòn hấp vừa chín tới cùng với một ít muối ớt 
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">119.000₫
+                        <sub><del>120.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-14.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Súp cá hồi</h2>
+                    <p>
+                        súp cá hồi phô mai hấp dẫn và đầy đủ chất dinh dưỡng 
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">80.000đ
+                        <sub><del>100.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-15.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Cá chép hấp ngải cứu</h2>
+                    <p>
+                        Món này có độ dinh dưỡng rất cao, tốt cho mẹ bầu
+                    </p>
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">199.999đ
+                        <sub><del>250.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+                    
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-16.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Sá sùng xào su hào</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">250.000đ
+                        <sub><del>300.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-17.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Bò Sốt Vang</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">274.200đ
+                        <sub><del>400.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-18.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2> Cháo bào ngư</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">700.000đ
+                        <sub><del>800.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-19.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2> Tôm luộc nước dừa</h2>
+                    
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">160.000đ
+                        <sub><del>200.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-20.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Bò Cube</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">850.000đ
+                        <sub><del>900.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-21.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Sashimi</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price"> 200.000đ
+                        <sub><del>300.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-22.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Sườn xào chua ngọt</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">100.000đ
+                        <sub><del>150.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-23.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Chả dê nướng</h2>
+                    
+
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price"> 100.000đ
+                        <sub><del>150.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_img">
+                    <img src="image/menu-24.jpg">
+                </div>
+
+                <div class="product">
+
+                    <h2>Bề bề nướng</h2>
+                  
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="price">350.000₫
+                        <sub><del>400.000đ</del></sub></p>
+
+                    <button class="add-to-cart-button"> <i class="fas fa-shopping-cart"></i>Đặt hàng</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+  <!--cuối trang-->
+
+  <footer>
+
+    <div class="footer_main">
+
+        <div class="footer_tag">
+            <h2>Vị trí</h2>
+            <p>Hoàng Mai</p>
+            <p>Cầu Giấy</p>
+            <p>Hồ Gươm</p>
+            <p>Thanh Xuân</p>
+            <p>Hà Đông</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Liên Kết Nhanh</h2>
+            <p>Trang Chủ</p>
+            <p>Giới Thiệu</p>
+            <p>Menu</p>
+            <p>Thư Viện Ảnh</p>
+            <p>Blog</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Liên hệ</h2>
+            <p>+84 962 930 966</p>
+            <p>+84 398 710 158</p>
+            <p>longha.kdcn.co@gmail.com</p>
+            <p>foodshop123@gmail.com</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Dịch vụ của chúng tôi</h2>
+            <p>Chuyển phát nhanh</p>
+            <p>Thanh toán dễ dàng</p>
+            <p>Dịch vụ 24 x 7</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Follows</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+    </div>
+
+    <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i>TEAM 11</span></p>
+
+</footer>
+
+<div id="cart-overlay">
+    <div id="cart-modal"><br>
+      <h2>Giỏ hàng</h2>
+      <ul id="cart-items"></ul>
+      <div id="cart-total"></div>
+      <button id="close-cart">Đóng</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
